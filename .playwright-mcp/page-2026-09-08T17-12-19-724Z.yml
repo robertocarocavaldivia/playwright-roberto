@@ -1,0 +1,64 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - link [ref=f1e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+  - generic [ref=f1e8]:
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13] [cursor=pointer]: Elements
+        - list [ref=f1e25]:
+          - listitem [ref=f1e26] [cursor=pointer]:
+            - link "Text Box" [ref=f1e27]:
+              - /url: /text-box
+          - listitem [ref=f1e30] [cursor=pointer]:
+            - link "Check Box" [ref=f1e31]:
+              - /url: /checkbox
+          - listitem [ref=f1e34] [cursor=pointer]:
+            - link "Radio Button" [ref=f1e35]:
+              - /url: /radio-button
+          - listitem [ref=f1e38] [cursor=pointer]:
+            - link "Web Tables" [ref=f1e39]:
+              - /url: /webtables
+          - listitem [ref=f1e42] [cursor=pointer]:
+            - link "Buttons" [ref=f1e43]:
+              - /url: /buttons
+          - listitem [ref=f1e46] [cursor=pointer]:
+            - link "Links" [ref=f1e47]:
+              - /url: /links
+          - listitem [ref=f1e50] [cursor=pointer]:
+            - link "Broken Links - Images" [ref=f1e51]:
+              - /url: /broken
+          - listitem [ref=f1e54] [cursor=pointer]:
+            - link "Upload and Download" [ref=f1e55]:
+              - /url: /upload-download
+          - listitem [ref=f1e58] [cursor=pointer]:
+            - link "Dynamic Properties" [ref=f1e59]:
+              - /url: /dynamic-properties
+      - generic [ref=f1e62]: Forms
+      - generic [ref=f1e75]: Alerts, Frame & Windows
+      - generic [ref=f1e87]: Widgets
+      - generic [ref=f1e100]: Interactions
+      - generic [ref=f1e112]: Book Store Application
+    - generic [ref=f1e124]:
+      - heading "Text Box" [level=1] [ref=f1e125]
+      - generic [ref=f1e127]:
+        - generic [ref=f1e128]:
+          - generic [ref=f1e129]: Full Name
+          - textbox "Full Name" [ref=f1e132]: Juan Duarte
+        - generic [ref=f1e133]:
+          - generic [ref=f1e134]: Email
+          - textbox "name@example.com" [ref=f1e137]: juan.duarte@example.com
+        - generic [ref=f1e138]:
+          - generic [ref=f1e139]: Current Address
+          - textbox "Current Address" [ref=f1e142]: Av. Reforma 123, Ciudad de Mexico
+        - generic [ref=f1e143]:
+          - generic [ref=f1e144]: Permanent Address
+          - textbox [ref=f1e147]: Calle Juarez 45, Ciudad de Mexico
+        - button "Submit" [active] [ref=f1e150] [cursor=pointer]
+        - generic [ref=f1e160]:
+          - paragraph [ref=f1e161]: Name:Juan Duarte
+          - paragraph [ref=f1e162]: Email:juan.duarte@example.com
+          - paragraph [ref=f1e163]: Current Address :Av. Reforma 123, Ciudad de Mexico
+          - paragraph [ref=f1e164]: Permananet Address :Calle Juarez 45, Ciudad de Mexico
+  - contentinfo [ref=f1e157]:
+    - generic [ref=f1e158]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.

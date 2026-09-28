@@ -1,0 +1,27 @@
+- generic [ref=f5e1]:
+  - main [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - heading "Inicia Sesión" [level=1] [ref=f5e45]
+        - paragraph [ref=f5e6]: O Crea una nueva cuenta
+      - generic [ref=f5e7]:
+        - link "Laboratorio De Testing" [ref=f5e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f5e10]:
+            - generic [ref=f5e11]: Laboratorio
+            - generic [ref=f5e12]: De Testing
+        - generic [ref=f5e16]:
+          - generic [ref=f5e17]: Email
+          - textbox "Ingresa tu email" [ref=f5e47]: juanduarte@test.com
+          - paragraph
+        - generic [ref=f5e19]:
+          - generic [ref=f5e20]: Contraseña
+          - textbox "Ingresa tu contraseña" [ref=f5e48]: incorrecta
+          - paragraph
+          - button:
+            - img [ref=f5e22] [cursor=pointer]
+        - button "Iniciar Sesión" [active] [ref=f5e49] [cursor=pointer]
+        - link "¿No tienes una cuenta? Crea una" [ref=f5e50] [cursor=pointer]:
+          - /url: /auth/signup
+      - button "¿Olvidaste tu contraseña?" [ref=f5e51] [cursor=pointer]
+  - alert [ref=f5e27]

@@ -1,0 +1,59 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - link [ref=f9e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+  - generic [ref=f9e8]:
+    - generic [ref=f9e11]:
+      - generic [ref=f9e12]:
+        - generic [ref=f9e13] [cursor=pointer]: Elements
+        - list [ref=f9e25]:
+          - listitem [ref=f9e26] [cursor=pointer]:
+            - link "Text Box" [ref=f9e27]:
+              - /url: /text-box
+          - listitem [ref=f9e30] [cursor=pointer]:
+            - link "Check Box" [ref=f9e31]:
+              - /url: /checkbox
+          - listitem [ref=f9e34] [cursor=pointer]:
+            - link "Radio Button" [ref=f9e35]:
+              - /url: /radio-button
+          - listitem [ref=f9e38] [cursor=pointer]:
+            - link "Web Tables" [ref=f9e39]:
+              - /url: /webtables
+          - listitem [ref=f9e42] [cursor=pointer]:
+            - link "Buttons" [ref=f9e43]:
+              - /url: /buttons
+          - listitem [ref=f9e46] [cursor=pointer]:
+            - link "Links" [ref=f9e47]:
+              - /url: /links
+          - listitem [ref=f9e50] [cursor=pointer]:
+            - link "Broken Links - Images" [ref=f9e51]:
+              - /url: /broken
+          - listitem [ref=f9e54] [cursor=pointer]:
+            - link "Upload and Download" [ref=f9e55]:
+              - /url: /upload-download
+          - listitem [ref=f9e58] [cursor=pointer]:
+            - link "Dynamic Properties" [ref=f9e59]:
+              - /url: /dynamic-properties
+      - generic [ref=f9e62]: Forms
+      - generic [ref=f9e75]: Alerts, Frame & Windows
+      - generic [ref=f9e87]: Widgets
+      - generic [ref=f9e100]: Interactions
+      - generic [ref=f9e112]: Book Store Application
+    - generic [ref=f9e124]:
+      - heading "Text Box" [level=1] [ref=f9e125]
+      - generic [ref=f9e127]:
+        - generic [ref=f9e128]:
+          - generic [ref=f9e129]: Full Name
+          - textbox "Full Name" [ref=f9e132]
+        - generic [ref=f9e133]:
+          - generic [ref=f9e134]: Email
+          - textbox "name@example.com" [ref=f9e137]
+        - generic [ref=f9e138]:
+          - generic [ref=f9e139]: Current Address
+          - textbox "Current Address" [ref=f9e142]
+        - generic [ref=f9e143]:
+          - generic [ref=f9e144]: Permanent Address
+          - textbox [ref=f9e147]
+        - button "Submit" [ref=f9e150] [cursor=pointer]
+  - contentinfo [ref=f9e157]:
+    - generic [ref=f9e158]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.

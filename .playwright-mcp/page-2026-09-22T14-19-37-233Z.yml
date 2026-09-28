@@ -1,0 +1,34 @@
+- generic [ref=f1e1]:
+  - main [aria-hidden] [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - heading [level=1] [ref=f1e28]: Inicia Sesión
+        - paragraph [ref=f1e6]: O Crea una nueva cuenta
+      - generic [ref=f1e7]:
+        - link [ref=f1e29] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e10]:
+            - generic [ref=f1e11]: Laboratorio
+            - generic [ref=f1e12]: De Testing
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: Email
+          - textbox [ref=f1e30]:
+            - /placeholder: Ingresa tu email
+            - text: inexistente.usuario.2026@test.com
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: Contraseña
+          - textbox [ref=f1e31]:
+            - /placeholder: Ingresa tu contraseña
+            - text: "12345678"
+          - img [ref=f1e22] [cursor=pointer]
+        - button [ref=f1e32] [cursor=pointer]: Iniciar Sesión
+        - link [ref=f1e33] [cursor=pointer]:
+          - /url: /auth/signup
+          - text: ¿No tienes una cuenta? Crea una
+      - button [ref=f1e34] [cursor=pointer]: ¿Olvidaste tu contraseña?
+  - alert [ref=f1e27]
+  - dialog [ref=f1e36]:
+    - heading "Error" [level=2] [ref=f1e41]
+    - generic [ref=f1e42]: No pudimos iniciar sesión con estas credenciales. Intenta de nuevo.
+    - text: "!"
+    - button "Volver" [active] [ref=f1e44] [cursor=pointer]
